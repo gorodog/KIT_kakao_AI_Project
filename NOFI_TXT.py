@@ -72,7 +72,7 @@ for i in range(0, min(30, int(data_number) // 10)):  # Adjusted the range limit 
 # 기본 URL과 상대 URL 조합
 full_url = [urljoin(base_url, url) for url in get_url]
 
-with open('output_file_all.txt', 'a', encoding='utf-8') as file:
+with open('학사안내.txt', 'a', encoding='utf-8') as file:
     for index, url in enumerate(full_url):
         response = requests.get(url, headers=headers)
         soup = BeautifulSoup(response.text, 'html.parser')
