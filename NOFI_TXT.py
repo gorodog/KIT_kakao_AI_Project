@@ -72,17 +72,22 @@ for i in range(0, min(30, int(data_number) // 10)):  # Adjusted the range limit 
 # 기본 URL과 상대 URL 조합
 full_url = [urljoin(base_url, url) for url in get_url]
 
-with open('학사안내.txt', 'a', encoding='utf-8') as file:
-    for index, url in enumerate(full_url):
-        response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'html.parser')
+for index, url in enumerate(full_url):
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.text, 'html.parser')
 
-        board_contents = soup.find('div', class_='board-contents')
+    board_contents = soup.find('div', class_='board-contents')
+    
+    if board_contents:
+        text_content = board_contents.get_text(separator='\n', strip=True)
 
-        if board_contents:
-            text_content = board_contents.get_text(separator='\n', strip=True)
+        # 파일 이름을 index를 기반으로 생성
+        file_name = f"output_file_{index + 1}.txt"
 
+        with open(file_name, 'w', encoding='utf-8') as file:
             file.write(f"{url}에서 가져온 내용:\n{text_content}\n\n")
-            print(f"{url}에서 가져온 내용을 output_file_all.txt에 추가했습니다.")
-        else:
-            print(f"{url}에서 board-contents를 찾을 수 없습니다.")
+
+        print(f"{url}에서 가져온 내용을 {file_name}에 저장했습니다.")
+    
+    else:
+        print(f"{url}에서 board-contents를 찾을 수 없습니다.")
