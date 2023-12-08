@@ -1,0 +1,15 @@
+<><><><RISS 무료 이용 해외DB 이용안내><>
+<><><><>
+□ 무료이용방법
+  ○ 도서관 홈페이지(https://library.kumoh.ac.kr) 로그인 → 홈페이지 하단 RISS 배너(  ) → 해외전자자료검색
+□ 시간대별 이용가능 DB와 24시간 이용 가능 DB로 구분
+  ○ 시간대별 이용 가능(당일 16:00/18:00 ~ 익일 09:00)<DB명><DB개요><이용시간>
+<ACM Digital Library><[공학/기술] 컴퓨터 공학/기술 분야의 Journals, Magazines, Transactions, Proceedings, Newsletter 등 약 47만 건의 원문 제공, 150만 건 이상의 초록 자료 제공><16시~9시>
+<Cambridge Journals Online (Read & Publish)><[전분야] Cambridge University Press에서 발행하는 전주제 전자저널 406종 원문>
+< ProQuest Central><[전분야] 학술저널, 매거진, 세계주요 신문, 학위논문, 시장/산업 보고서, 워킹페이퍼, 온라인 게시정보, 데이터파일/참고서적 등 다양한 유형의 자료 원문 제공>
+< ProQuest Medical Library><[의학] MEDLINE에 등재된 우수저널 4천3백여종의 색인·초록 및 4천여종의 원문>
+<CINAHL with FullText><[의약학] 간호학/보건의학분야의 약 17개 분야 3,100여 종 저널의 서지정보 및 622여 종 저널의 원문 제공>
+<SocINDEX with FullText><[사회과학] 사회학·사회복지 분야의 5,600여 종의 출판물에 대한 서지정보 수록. 870여 종 저널 및 850여 권의 참고도서·단행본, 24,000여 건의 회의록   원문 제공>
+<Lexis China><[법학] 최신 법령, 판례를 포함 중국 법률 정보 제공>
+<Lexis 360><[법학] 최신 법령, 판례를 포함 프랑스 법률 정보 제공>
+<Lexis As One><[법학] 최신 법령, 판례를 포함 일본 법률 정>

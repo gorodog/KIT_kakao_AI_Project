@@ -1,0 +1,23 @@
+현직 개발자가
+강의하는
+2023 제2차 UR로봇 교육 과정 강좌
+지원 대상 및 일정
+신청 방법
+대 상: 재학중인 대학생 및 대학원생 20명 내외
+BISKIT으로 신청
+일 시: 2023. 11. 21 (화)~22 (수) 오후 2시1 (4시간)
+신청기간: 2023.11. 13 (월)
+22 (수)
+장 소: 도서관 공감마루
+문의: 단습센터 담당자 양철순 (8054-478-7236)
+강 사: 홍창민(자율주행 산업로봇 WE-MMI 개발자)
+지참물
+노트북(OS : Ubuntu 20.04 LTS)
+설치 가이드
+(https://youtu.be/HizqJ5O31TE)
+강의
+UBUNTU 기초, ROS 기초
+Realsense Camera & Aruco Marker
+RG2 Gripper
+UR & ROS Pick & Place Application
+기본 필요 지식: Python; 기구학(상대 좌표 구하기)

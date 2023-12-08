@@ -1,0 +1,11 @@
+<대학원(일반, 산업 및 컨설팅) 학과(전공)별 영문표기>
+
+ ⃞ 대학원(박사과정)
+<학과명><전공명><학과명 영문표기><한글학위명><영문학위명 (약자표기)><영문학위명>
+<기계공학과><><Department of  Mechanical Engineering><공학박사><Ph.D.><DOCTOR OF PHILOSOPHY><(항공기계전자융합전공)><Department of Mechanical Engineering(Department of Aeronautics, Mechanical and Electronic Convergence Engineering)><공학박사><Ph.D.><DOCTOR OF PHILOSOPHY>
+<기전공학과><><Department of Mechatronics><공학박사><Ph.D.><DOCTOR OF PHILOSOPHY>
+<기계설계공학과><><Department of Engineering Science and Mechanics><공학박사><Ph.D.><DOCTOR OF PHILOSOPHY>
+<기계시스템공학과><><Department of Mechanical System Engineering><공학박사><Ph.D.><DOCTOR OF PHILOSOPHY>
+<지능기계공학과><><Department of Intelligent Mechanical Engineering><공학박사><Ph.D.><DOCTOR OF PHILOSOPHY>
+<전자공학과><><Department of Electronic Engineering><공학박사><Ph.D.><DOCTOR OF PHILOSOPHY><(항공기계전자융합전공)><Department of Electronic Engineering(Department of Aeronautics, Mechanical and Electronic Convergence Engineering)><공학박사><Ph.D.><DOCTOR OF PHILOSOPHY>
+<IT융복합공학과><><Department of  IT Convergence Engineering><공학박사>
