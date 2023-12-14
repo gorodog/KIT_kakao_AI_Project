@@ -56,7 +56,7 @@ def get_question():
     a[request_data['userRequest']['user']['id']] = r_r_text
 
     response = { "version": "2.0", "template": { "outputs": [{
-        "simpleText": {"text": f"질문을 받았습니다. AI에게 물어보고 올께요!: {request_data['action']['params']['question']}"}
+        "simpleText": {"text": f"질문('{request_data['action']['params']['question']}')을 받았습니다.'답변'을 입력하시면 답변이 전송됩니다."}
     }]}}
 
     # try:
