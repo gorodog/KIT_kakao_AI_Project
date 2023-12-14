@@ -32,19 +32,29 @@ Project of the Department of Artificial Intelligence Engineering at Kumoh Nation
 
 <br/>
 
-## 😄data
-
-<br/>
+## 😖 data
 
 - project_data
+
+    
+<br/>
+
     : 공지사항 OCR, 첨부파일 데이터
     
 
 - school_text
+
+    
+<br/>
+
     : 3주차 과제 데이터
    
 
 - txt
+
+    
+<br/>
+
     : 공지사항 텍스트 데이터
     
 <br/>
@@ -54,18 +64,26 @@ Project of the Department of Artificial Intelligence Engineering at Kumoh Nation
 
 <br/>
 
-## 😄main
+## 🤩 main
 
-<br/>
 
 - app
+    
+<br/>
+
     : 서버 실행 코드(elasticsearch & chatGPT & kakao chatbot 연결)
     
 
 - es_delete
+    
+<br/>
+
     : es 색인화 삭제 코드
     
 
 - my_es
+    
+<br/>
+
     : es 색인화 코드
     
