@@ -5,36 +5,31 @@ Project of the Department of Artificial Intelligence Engineering at Kumoh Nation
 
 <br/>
 
-- DOCX_TXT
-    
-<br/>
+#### DOCX_TXT
+  
 
 : 구글문서 > txt 변환
 
 
-- HWP_TXT
-    
-<br/>
+#### HWP_TXT
+   
 
 : 한글hwp파일 > txt 변환
 
-- NOFI_OCR6
+#### NOFI_OCR6
     
-<br/>
 
 : 공지사항 이미지 OCR
     
 
-- NOFI_PDF
+#### NOFI_PDF
     
-<br/>
 
 : 공지사항 첨부파일(pdf, hwp, docx ...) 다운로드
     
 
-- NOFI_TXT
+#### NOFI_TXT
     
-<br/>
 
 : 공지사항 텍스트 크롤링
     
@@ -49,26 +44,21 @@ Project of the Department of Artificial Intelligence Engineering at Kumoh Nation
 
 ## 😖 data
 
-- project_data
+#### project_data
 
     
-<br/>
 
 : 공지사항 OCR, 첨부파일 데이터
     
 
-- school_text
+#### school_text
 
     
-<br/>
-
 : 3주차 과제 데이터
    
 
-- txt
+#### txt
 
-    
-<br/>
 
 : 공지사항 텍스트 데이터
     
@@ -82,23 +72,20 @@ Project of the Department of Artificial Intelligence Engineering at Kumoh Nation
 ## 🤩 main
 
 
-- app
+#### app
     
-<br/>
 
 : 서버 실행 코드(elasticsearch & chatGPT & kakao chatbot 연결)
     
 
-- es_delete
+#### es_delete
     
-<br/>
 
 : es 색인화 삭제 코드
     
 
-- my_es
+#### my_es
     
-<br/>
 
 : es 색인화 코드
     
