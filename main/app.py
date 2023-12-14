@@ -29,6 +29,9 @@ def get_question():
     request_data = json.loads(request.get_data(), encoding='utf-8')
 
     question = request_data['action']['params']['question']
+
+    a[request_data['userRequest']['user']['id']] = '아직 AI가 처리중이에요'
+
     # 검색할 인덱스와 쿼리 정의
     index_name = '<your_index_name>'
     search_body = {
@@ -47,20 +50,23 @@ def get_question():
     result_text = ""
     for hit in response['hits']['hits']:
         result_text += hit['_source']['text'] + "\n\n\n 다음문서:\n"
-    r_text = result_text[:3000] # 글자수 3000자까지 자르기
+    r_text = result_text.replace('\n', ' ')
+    r_r_text = r_text[:500] # 글자수 300자까지 자르기
+
+    a[request_data['userRequest']['user']['id']] = r_r_text
 
     response = { "version": "2.0", "template": { "outputs": [{
         "simpleText": {"text": f"질문을 받았습니다. AI에게 물어보고 올께요!: {request_data['action']['params']['question']}"}
     }]}}
-    a[request_data['userRequest']['user']['id']] = '아직 AI가 처리중이에요'
-    try:
-        api = requests.post('https://api.asyncia.com/v1/api/request/', json={
-            "apikey": "<openAI API Key>",
-            "messages" :[{"role": "user", "content": r_text}],
-            "userdata": [["user", request_data['userRequest']['user']['id']]]},
-            headers={"apikey":"<Asyncia API Key>"}, timeout=0.3)
-    except requests.exceptions.ReadTimeout:
-        pass
+
+    # try:
+        # api = requests.post('https://api.asyncia.com/v1/api/request/', json={
+            # "apikey": "<openAI API Key>",
+            # "messages" :[{"role": "user", "content": r_text}],
+            # "userdata": [["user", request_data['userRequest']['user']['id']]]},
+            # headers={"apikey":"<Asyncia API Key>"}, timeout=0.3)
+    # except requests.exceptions.ReadTimeout:
+        # pass
     return jsonify(response)
 
 @application.route("/ans", methods=["POST"])
